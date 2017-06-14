@@ -1,0 +1,29 @@
+//Omitted Sau Tome and Principe, Saint Vincent and the Grenadines, Trinidad and Tobago, Burundi, Benin, Guinea-Bissau, Togo, Seychelles, Grenada,Dominica, Saint_Lucia, Tuvalu,Kiribati,Nauru,Solomon_Islands,BurkinaFaso,St.Kitts_and_Nevis,Antigua and Barbuda, Barbados. Basically all the really tiny countries aren't included.
+
+digraph unrecognized_countries
+{
+	China->Taiwan;
+	Taiwan->China;
+
+	Pakistan->Armenia;
+	{Northern_Cyprus, Turkey}->Cyprus
+	
+		
+	{Afghanistan, Algeria, Bahrain, Bangladesh, Bhutan, Bolivia, Brunei, Chad, Comoros, Cuba, Djibouti, Indonesia, Iran, Iraq, North_Korea, Kuwait, Lebanon, Libya, Malaysia, Mali, Mauritania, Morocco, Niger, Oman, Pakistan, Qatar, Saudi_Arabia, Somalia, Sudan, Syria, Tunisia, United_Arab_Emirates, Yemen}->Israel;
+
+	{Australia,Austria,Belgium,Cameroon,Canada,Colombia,Croatia,Denmark,Eritrea,Estonia,EU,Finland,France,Germany,Greece,Ireland,Israel,Italy,Japan,South_Korea,Latvia,Lithuania,Luxembourg,Mexico,Moldovia,Netherlands,New_Zealand,Norway,Portugal,Slovenia,Order_Of_Malta,Spain,Switzerland,UK,USA}->Palestine;
+
+	{Algeria,Angola,Argentina,Armenia,Azerbaijan,Bahamas,Barbados,Belarus,Bhutan,Bolivia,Bosnia_and_Herzegovina,Botswana,Brazil,
+Cambodia,Cameroon,Cape_Verde,Chile,China,Democratic_Republic_of_the_Congo,Cuba,Cyprus,Ecuador,Equatorial_Guinea,Eritrea,Ethiopia,Georgia,Greece,Guatemala,India,Indonesia,Iran,Iraq,Israel,Jamaica,Kazakhstan,Kenya,Kyrgyzstan,Laos,Lebanon,Madagascar,Mali,Mauritius,Mexico,Moldovia,Mongolia,Morocco,Mozambique,Myanmar,Namibia,Nepal,Niraragua,Nigeria,paraguay,Phillipines,Romania,Russia,Rwanda,Slovakia,South_Africa,South_Sudan,Spain,Sri_Lanka,Sudan,Syria,Tajikistan,Tunisia,Turkmenistan,Uganda,Ukraine,Uruguay,Uzbekistan,Venezuela,Vietnam,Zambia,Zimbabwe}->Kosovo;
+
+{Madagascar,Congo,Equatorial_Guinea,Vietnam,Cambodia,Afghanistan,Swaziland,Chad,Costa_Rica,Papua_New_Guinea,Peru,Serbia,Colombia,India,Guatemala,Dominican_Republic,Albania,Malawi,Paraguay,Haiti}->Sahrawi_Republic;
+
+
+
+
+North_Korea->South_Korea;
+{South_Korea, France, Japan, USA, Taiwan}->North_Korea;
+
+
+
+}
